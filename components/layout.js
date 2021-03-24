@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Footer from './footer'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 
@@ -50,6 +51,7 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
+      <Footer/>
     </div>
   )
 }
